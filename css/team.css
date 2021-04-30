@@ -1,0 +1,79 @@
+.box {
+    margin: 40px auto 20px auto;
+    padding: 10px;
+    width: 1200px;
+}
+
+.aboutBody {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.aboutText {
+    display: flex;
+    flex-basis: 65%;
+    line-height: 24px;
+    font-size: 15px;
+    padding: 8px;
+}
+
+
+.imgD {
+    overflow: hidden;
+    border-radius: 10px;
+
+    width: 400px;
+}
+
+.imgD > img {
+    height: 300px;
+    margin-left: -100px;
+    border-radius: 10px;
+}
+
+.players{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.player{
+    display: flex;
+    flex-basis: 48%;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 40px;
+    height: 420px;
+}
+.bio{
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
+    padding: 20px;
+}
+.imgS{
+    overflow: hidden;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: inherit;
+    width: 270px;
+}
+.imgS > img{
+    height: inherit;
+    margin-left: -180px;
+
+}
+.status{
+    margin: 8px 0;
+    border-left: 3px solid orange;
+    padding: 4px 10px;
+    background: rgba(255, 165, 0, 0.13);
+}
+.desc{
+    font-size: 14px;
+}
